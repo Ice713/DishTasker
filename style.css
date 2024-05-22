@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Prompt', sans-serif;
+}
+
+body, #user-modal, body#user-body header{
+    background-color: #ceb237!important;
+}
+
+.btn-primary {
+    background-color: #04660d!important;
+    border: none!important;
+}
+
+#get-started{
+    color: #fff!important;
+}
+
+a, .dishwash-title{
+    color: #04660d!important;
+}
+
+.home-banner-header{
+    color: #04660d;
+    text-decoration: none;
+}
+
+#home-banner-tasker {
+    color: #fff!important;
+}
+
+.text-center.fw-bold.fst-italic a {
+    text-decoration: none!important;
+}
+
+.green-text {
+    color: #04660d!important;
+}
+
+#sign-up-button {
+    background-color: transparent!important;
+    color: #04660d;
+    border: 2px solid #04660d!important;
+}
+
+#small-forgot-pw {
+    text-decoration: none;
+}
+
+.home-banner-header{
+    font-size: 10em!important;
+    text-decoration: none;
+}
+
+#user-dashboard{
+    height: 94%;
+    background-color: #fff;
+}
+
+#schedule-title {
+    color: #ceb237;
+}
+
+#user-header {
+    height: 6%;
+}
+
+#user-icon {
+    font-size: 5em;
+    background: #ffffffaf;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+
+button.no-design-btn {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#user-body {
+    background: #fff!important
+}
+
+.icon{
+    height: 10em!important;
+    width: 10em!important;
+    z-index: -5;
+    margin-bottom: -3em;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-banner-header{
+        font-size: 3.5em!important;
+    }
+
+    header#landing-page {
+        height: 90vh;
+    }
+
+    .icon {
+        height: 5em!important;
+        width: 5em!important;
+        z-index: -5;
+        margin-bottom: -1em;
+    }
+}
